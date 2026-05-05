@@ -39,8 +39,10 @@ Produce each of the following files **in a separate message**, in this order:
 | 2 | `SOUL.md` | Persona, tone, boundaries, values |
 | 3 | `AGENTS.md` | Operating instructions + memory |
 | 4 | `TOOLS.md` | Tool notes and conventions |
-| 5 | `BOOTSTRAP.md` | First-run ritual instructions |
-| 6 | `USER.md` | User profile and preferred address |
+| 5 | `USER.md` | User profile and preferred address |
+| 6 | `HEARTBEAT.md` | Short checklist for recurring heartbeat runs |
+| 7 | `BOOT.md` | Short startup checklist run on gateway restart |
+| 8 | `BOOTSTRAP.md` | One-time first-run ritual (delete after completion) |
 
 Each message must:
 - Begin with a header identifying the file name (e.g., `## 📄 IDENTITY.md`)
@@ -48,7 +50,7 @@ Each message must:
 - End with a brief one-line note explaining any non-obvious choices made
 
 ### Step 4 — Confirm Completion
-After delivering all 6 files, send a final summary message listing the files generated and inviting the user to request revisions.
+After delivering all 8 files, send a final summary message listing the files generated and inviting the user to request revisions.
 
 ---
 

@@ -18,8 +18,10 @@ An AI agent that accepts a natural-language description of a new agent's purpose
 | `SOUL.md` | Persona, tone, boundaries, and core values |
 | `AGENTS.md` | Operating instructions and session memory |
 | `TOOLS.md` | Tool notes, command conventions, and integrations |
-| `BOOTSTRAP.md` | One-time first-run ritual (deleted after completion) |
 | `USER.md` | User profile and communication preferences |
+| `HEARTBEAT.md` | Short checklist for recurring heartbeat runs |
+| `BOOT.md` | Short startup checklist run on gateway restart |
+| `BOOTSTRAP.md` | One-time first-run ritual (deleted after completion) |
 
 ---
 
@@ -34,7 +36,16 @@ openclaw-agent-creator/
 ├── IDENTITY.md      # Agent name/vibe/emoji
 ├── USER.md          # User profile + preferred address
 ├── README.md        # This file
-└── examples/        # Sample agent configs used as templates
+└── examples/
+    └── water-reminder-agent/   # Sample agent config (complete reference)
+        ├── IDENTITY.md
+        ├── SOUL.md
+        ├── AGENTS.md
+        ├── TOOLS.md
+        ├── USER.md
+        ├── HEARTBEAT.md
+        ├── BOOT.md
+        └── BOOTSTRAP.md
 ```
 
 ---
@@ -47,7 +58,7 @@ Read `BOOTSTRAP.md` and follow the checklist. This ensures the agent is correctl
 
 ### 2. Add Examples
 
-Populate the `/examples` directory with at least one complete agent config. Each example should contain the six standard files (`IDENTITY.md`, `SOUL.md`, `AGENTS.md`, `TOOLS.md`, `BOOTSTRAP.md`, `USER.md`). These files are the agent's primary style reference.
+Populate the `/examples` directory with at least one complete agent config. Each example should contain the eight standard files (`IDENTITY.md`, `SOUL.md`, `AGENTS.md`, `TOOLS.md`, `USER.md`, `HEARTBEAT.md`, `BOOT.md`, `BOOTSTRAP.md`). These files are the agent's primary style reference.
 
 ### 3. Send a Prompt
 

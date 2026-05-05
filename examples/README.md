@@ -15,7 +15,7 @@ Each subdirectory (or group of files) here represents a complete agent configura
 To add an example:
 
 1. Create a subdirectory named after the agent (e.g., `examples/water-reminder-agent/`).
-2. Place the full set of agent files inside it: `IDENTITY.md`, `SOUL.md`, `AGENTS.md`, `TOOLS.md`, `BOOTSTRAP.md`, `USER.md`.
+2. Place the full set of agent files inside it: `IDENTITY.md`, `SOUL.md`, `AGENTS.md`, `TOOLS.md`, `USER.md`, `HEARTBEAT.md`, `BOOT.md`, `BOOTSTRAP.md`.
 3. Commit the files. The creator will pick them up automatically on the next run.
 
 > **Note:** At least one example should be present before using the creator in production. An empty `/examples` directory will cause the agent to fall back to its built-in conventions.
