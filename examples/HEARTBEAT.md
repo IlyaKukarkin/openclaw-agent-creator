@@ -1,3 +1,16 @@
-# HEARTBEAT.md — Heartbeat Checklist
+---
+summary: "Workspace template for HEARTBEAT.md"
+title: "HEARTBEAT.md template"
+read_when:
+  - Bootstrapping a workspace manually
+---
 
-Optional tiny checklist for heartbeat runs. Keep it short to avoid token burn.
+```markdown
+# Keep this file empty (or with only comments) to skip heartbeat API calls.
+
+# Add tasks below when you want the agent to check something periodically.
+```
+
+## Related
+
+- [Heartbeat config](/gateway/config-agents)

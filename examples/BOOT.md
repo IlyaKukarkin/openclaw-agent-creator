@@ -1,3 +1,16 @@
-# BOOT.md — Startup Checklist
+---
+summary: "Workspace template for BOOT.md"
+title: "BOOT.md template"
+read_when:
+  - Adding a BOOT.md checklist
+---
 
-Optional startup checklist run automatically on gateway restart (when internal hooks are enabled). Keep it short; use the message tool for outbound sends.
+# BOOT.md
+
+Add short, explicit instructions for what OpenClaw should do on startup (enable `hooks.internal.enabled`).
+If the task sends a message, use the message tool and then reply with the exact
+silent token `NO_REPLY` / `no_reply`.
+
+## Related
+
+- [Agent workspace](/concepts/agent-workspace)
