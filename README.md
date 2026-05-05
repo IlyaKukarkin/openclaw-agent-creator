@@ -36,16 +36,15 @@ openclaw-agent-creator/
 ├── IDENTITY.md      # Agent name/vibe/emoji
 ├── USER.md          # User profile + preferred address
 ├── README.md        # This file
-└── examples/
-    └── water-reminder-agent/   # Sample agent config (complete reference)
-        ├── IDENTITY.md
-        ├── SOUL.md
-        ├── AGENTS.md
-        ├── TOOLS.md
-        ├── USER.md
-        ├── HEARTBEAT.md
-        ├── BOOT.md
-        └── BOOTSTRAP.md
+└── examples/        # File-type descriptions used as reference templates
+    ├── IDENTITY.md
+    ├── SOUL.md
+    ├── AGENTS.md
+    ├── TOOLS.md
+    ├── USER.md
+    ├── HEARTBEAT.md
+    ├── BOOT.md
+    └── BOOTSTRAP.md
 ```
 
 ---
@@ -56,9 +55,9 @@ openclaw-agent-creator/
 
 Read `BOOTSTRAP.md` and follow the checklist. This ensures the agent is correctly configured before its first real use. **Delete `BOOTSTRAP.md` when done.**
 
-### 2. Add Examples
+### 2. Review Examples
 
-Populate the `/examples` directory with at least one complete agent config. Each example should contain the eight standard files (`IDENTITY.md`, `SOUL.md`, `AGENTS.md`, `TOOLS.md`, `USER.md`, `HEARTBEAT.md`, `BOOT.md`, `BOOTSTRAP.md`). These files are the agent's primary style reference.
+The `/examples` directory contains one file per agent context file type, each with a short description of its purpose. These are the agent's primary style reference when generating files for a new agent.
 
 ### 3. Send a Prompt
 
